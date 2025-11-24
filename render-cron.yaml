@@ -4,4 +4,4 @@ services:
     env: docker
     schedule: "* * * * *"   # runs every 1 minute
     command: |
-      curl -s https://your-app.onrender.com/health || echo "Health check failed"
+      curl https://twilio-cascade-calling.onrender.com/health || echo "Health check failed"
